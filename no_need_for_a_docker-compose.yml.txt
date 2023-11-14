@@ -1,0 +1,8 @@
+version: '3.1.5'
+services:
+  docker-demo:
+    image: docker-demo
+    ports:
+      - "8088:8080"
+
+The port 8088 from the container is mapped to the port 8080 on the host. The port 8080 is the port that the Spring Boot application is listening on.
