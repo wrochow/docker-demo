@@ -3,9 +3,9 @@
 In the following example, I will use a (ridiculously) basic Spring Boot app. The app is a simple REST web app that outputs the following plain test "Hello Docker World!".
 The app is running on Tomcat on port 8080 and is packaged as a jar file. The project was named "docker-demo" and the jar file is named "docker-demo".
 
-## Prerequisites
+## Prerequisites (My set-up is on Windows)
 * Docker Desktop
-* Java 11 or higher (?)
+* Java 17 or higher
 * An existing Spring Boot app
 
 ## Build the Docker image
